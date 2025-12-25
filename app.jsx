@@ -1,5 +1,3 @@
-### 2. `app.jsx`
-```jsx
 const { useState } = React;
 
 const Lock = ({ size = 20, className = "" }) => (
@@ -210,4 +208,3 @@ const StateGuess = () => {
 };
 
 ReactDOM.render(<StateGuess />, document.getElementById('root'));
-```
